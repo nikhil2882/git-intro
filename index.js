@@ -9,6 +9,6 @@ user_login.addEventListener( "click", function()
 {
 
   welcome_container.style.display = "none";
-  login_form.style.display = "block";
+  login_form.style.display = "none";
 
 });
