@@ -5,13 +5,13 @@ var user_register = document.getElementById("user_register");
 
 var user_login = document.getElementById("user_login");
 
-user_login.addEventListener( "click", function()
+user_login.onClick = function()
 {
 
   welcome_container.style.display = "none";
-  login_form.style.display = "none";
+  login_form.style.display = "block";
 
-});
+};
 
 
 /**
